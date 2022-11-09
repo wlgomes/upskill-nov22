@@ -3,6 +3,7 @@ package com.wlgomes;
 import java.io.File;
 import java.sql.Time;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedList;
 
 public class Song extends MusicArtifact {
@@ -12,11 +13,11 @@ public class Song extends MusicArtifact {
         //empty constructor
     public Song(){}
         //construtor with all the paramethers previouly defined
-    public Song(int id,String title,Time duration, ArrayList<Album> album){
-        this.id=id;
+    public Song(int songID, String title, Time duration, ArrayList<Album> album){
+        this.id=songID;
         this.name=title;
         this.duration=duration;
-        this.albums= new ArrayList<Album>();
+        this.albums= new HashSet<Album>();
     }
     //constructor without album, to be added later
     public Song(int songID, String title, Time duration) {
