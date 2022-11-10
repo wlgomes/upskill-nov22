@@ -35,12 +35,7 @@ public class Song extends MusicArtifact {
         this.duration = duration;
     }
     //toString returns properties of the class in text form
-    @Override
-    public String toString() {
-        return "Faixa " + getId() +
-                "- " + getName() +
-                " | " + getDuration();
-    }
+
 
 
 }

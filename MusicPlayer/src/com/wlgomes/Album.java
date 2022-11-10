@@ -1,12 +1,10 @@
 package com.wlgomes;
 
-import java.sql.Time;
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedList;
 
 public class Album extends MusicArtifact {
-    private LinkedList<Song> albumTracks;
+    private LinkedList<Song> albumTracks = new LinkedList<>();
     public LinkedList<Song> getTracks() {
         return this.albumTracks;
     }
@@ -24,27 +22,29 @@ public class Album extends MusicArtifact {
         this.albumTracks = new LinkedList<Song>();
     }
     //constructor without tracks so they can be added later
-    public Album(int albumID, String title, ArrayList<Artist> artists) {
+    public Album(int albumID, String title, HashSet<Artist> artists) {
         this.id = albumID;
         this.name = title;
         this.artists = new HashSet<Artist>();
     }
     @Override
-    public Song findSong(String title){
+    public boolean findSong(String title){
         for(Song song : albumTracks){
             if(song.getName().equals(title))
-                return song;
+                return true;
         }
-        return null;
+        return false;
     }
     @Override
-    public void addSong(int songID, String title, Time duration) {
-        if(super.findSong(title)!=null) {
-            albumTracks.add(findSong(title));
+    public void addSong(Song song) {
+        if(!findSong(song.getName())) {
+            albumTracks.add(song);
             System.out.println("Track successfully added to the album.");
-        }
-        System.out.println("The track named "+title+" already exists in the album.");
+        }else
+            System.out.println("The track named "+song.getName()+" already exists in the album.");
     }
 
-
 }
+
+
+
