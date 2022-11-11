@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AbstractClassExample/AbstractClassExample.iml" filepath="$PROJECT_DIR$/AbstractClassExample/AbstractClassExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/MusicPlayer/MusicPlayer.iml" filepath="$PROJECT_DIR$/MusicPlayer/MusicPlayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/PolymorphismExample/PolymorphismExample.iml" filepath="$PROJECT_DIR$/PolymorphismExample/PolymorphismExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadsExample/ThreadsExample.iml" filepath="$PROJECT_DIR$/ThreadsExample/ThreadsExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/upskill-nov22.iml" filepath="$PROJECT_DIR$/.idea/upskill-nov22.iml" />
     </modules>
   </component>
