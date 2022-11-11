@@ -5,13 +5,12 @@ First week: review of OOP in Java
 1. OPP:
 •	Polymorphism
 •	Inheritance
-•	Abstraction 
+•	Abstraction/Abstract classes
 •	Encapsulation
-2. Abstract classes
-3. Collections
-4. Multithreading
-5. Serialization
-6. Design patterns (most popular)
+2. Collections
+3. Multithreading
+4. Serialization
+5. Design patterns (most popular)
 
 Day 1 08-11:
     Watched tutorial to get an idea of a project where I could implement the ideas above - https://www.youtube.com/watch?v=49eeLxc6xE4
@@ -58,3 +57,5 @@ Created a way to add multiple albums to one playlist. Created a way to add multi
 Abstract classes/interfaces: in order to understand more about these concepts, I've created another module "AbstractClassExample".
 Used this tutorial: https://www.javatpoint.com/abstract-class-in-java
 
+Day 4 11-11:
+Created example of polymorphism. Prepared small presentation/block of organized notes from the previous topics.
