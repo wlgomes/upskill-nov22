@@ -59,3 +59,6 @@ Used this tutorial: https://www.javatpoint.com/abstract-class-in-java
 
 Day 4 11-11:
 Created example of polymorphism. Prepared small presentation/block of organized notes from the previous topics.
+
+Day 5 14-11:
+Decided to explore JavaScript this week.

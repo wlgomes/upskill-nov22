@@ -1,7 +1,5 @@
 package com.wlgomes;
 
-import javax.swing.*;
-import java.awt.*;
 import java.sql.Time;
 import java.util.*;
 import java.util.List;

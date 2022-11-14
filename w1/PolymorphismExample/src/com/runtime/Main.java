@@ -2,8 +2,8 @@ package com.runtime;
 
 //runtime
 class Computer{
-    String run(){return "Computador ligado";
-    }  }
+    String run(){return "Computador ligado";}
+}
 class Laptop extends Computer {
     @Override
     String run() {
