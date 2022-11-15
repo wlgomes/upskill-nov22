@@ -61,4 +61,9 @@ Day 4 11-11:
 Created example of polymorphism. Prepared small presentation/block of organized notes from the previous topics.
 
 Day 5 14-11:
-Decided to explore JavaScript this week.
+Decided to explore JavaScript this week. Reviewed concepts and documents from past certification that I have done. Decided to
+implement those concepts in a small project: a simple html form that asks for name and year of birth, returns age until today.
+
+![img.png](img.png)
+Day 6 15-11:
+Continuation of previous day 
