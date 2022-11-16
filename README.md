@@ -65,5 +65,9 @@ Decided to explore JavaScript this week. Reviewed concepts and documents from pa
 implement those concepts in a small project: a simple html form that asks for name and year of birth, returns age until today.
 
 ![img.png](img.png)
+
 Day 6 15-11:
-Continuation of previous day 
+Continuation of previous day. 
+
+Day 7 16-11:
+Decided to make a small card game. Today I have included (exe 2) the start of that game.
