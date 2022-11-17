@@ -70,4 +70,8 @@ Day 6 15-11:
 Continuation of previous day. 
 
 Day 7 16-11:
-Decided to make a small card game. Today I have included (exe 2) the start of that game.
+Decided to make a small card game. Today I have included (exe 2) the start of that game. I had this project as an exercise
+from previous certification. I completed it following a tutorial from those certification classes.
+
+Day 8 17-11:
+Progressed in the card game (now exe 3). Included levels and card funcionality.

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width"/>
+  <title>Jogo Memória</title>
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+  <main>
+    <div name="escolhanivel" class="cabecalho">
+      <span>Nível <span id="nivel"> </span></span>
+      <button class="buttonDisp" id="n1" onclick="nivel1()">Nivel 1 </button>
+      <button class="buttonDisp" id="n2" onclick="nivel2()">Nivel 2 </button>
+      <button class="buttonDisp" id="n3" onclick="nivel3()">Nivel 3 </button>
+    </div>
+    <div name="escolhanivel" class="cabecalho">
+      <span>Movimentos <span id="movimentos"> 0</span></span>
+    </div>
+
+    <div id="mesa" class="mesa">
+    </div>
+  </main>
+  <script src="js/variaveisGlobais.js"></script>
+  <script src="js/escolhaNivel.js"></script>
+  <script src="js/baralharDistribuir.js"></script>
+  <script src="js/descobrirComparar.js"></script>
+  <script src="js/certoErrado.js"></script>
+
+</body>
+</html>
