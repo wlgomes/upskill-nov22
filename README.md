@@ -12,6 +12,8 @@ First week: review of OOP in Java
 4. Serialization
 5. Design patterns (most popular)
 
+Secound week: JavaScript revision and small card game in JS
+
 Day 1 08-11:
     Watched tutorial to get an idea of a project where I could implement the ideas above - https://www.youtube.com/watch?v=49eeLxc6xE4
     Decided to create a music player, similar system to ipod - user can listen to songs, skip them and obtain info about them (as a basic version)
