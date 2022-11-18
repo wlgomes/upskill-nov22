@@ -1,4 +1,6 @@
 function funcionalidadeCartas(){
+    //retorna todas as cartas com classe carta, cada uma dessas cartas é atribuido um eventlistener. quando clicado executa
+    // a função virarCarta
 document.querySelectorAll(".carta").forEach(function(element){
         element.addEventListener("click", virarCarta);
     }
@@ -15,6 +17,7 @@ function distribuirCartas1() {
     var mesa=document.querySelector("#mesa");
     mesa.innerHTML= "";
     baralhar.forEach(
+        //para cada elemento do array de cartas, é gerada uma carta com esse conteudo
         function(element){
             var carta=document.createElement("div");
             carta.innerHTML=

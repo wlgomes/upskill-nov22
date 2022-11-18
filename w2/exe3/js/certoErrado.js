@@ -1,3 +1,4 @@
+//o que constitui uma carta certa e qual o atributo
 function certo(acertar){
     acertar.forEach(function(element){
         element.classList.add("sucesso");

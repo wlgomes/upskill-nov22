@@ -1,4 +1,4 @@
-
+//executa a função que contém do span correspondente ao numero
 function nivel1(){
     document.getElementById('nivel').innerText="1";
     distribuirCartas1();
